@@ -1,0 +1,70 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #f3f4f6;
+    margin: 0;
+    padding: 0;
+    background-image: url(bg.avif);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+.head{
+    background-color: darkblue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem;
+    margin: 0;
+    text-align: center;
+    font-size: larger;
+    color: white;
+    
+}
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 95vh;
+  }
+
+  .login-box {
+    background: white;
+    padding: 5rem;
+    border: 2px solid #0046b8;
+    border-radius: 10px;
+    width: 250px;
+  }
+
+  .login-box h2 {
+    margin-bottom: 1.7rem;
+    color: #222;
+  }
+
+  .login-box input {
+    width: 100%;
+    padding: 9px;
+    margin: 0.8rem 0.0rem;
+    border: 3px solid black;
+    border-radius: 5px;
+  }
+
+  .login-box a {
+    color: blue;
+    text-decoration: none;
+  }
+
+  .login-box a:hover {
+    text-decoration: underline;
+  }
+
+  .buttons{
+    width:270px;
+  height: 30px;
+  border-width:3px;
+  border-style:groove;
+  border-radius:15px;
+  background-color: grey;
+  color:whitesmoke;
+  }
+  .buttons:hover{
+    color:darkblue;
+    transition: 0.3s;
+  }
